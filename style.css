@@ -1,0 +1,26 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: blue;
+    margin: 20px 100px 50px 100px;
+    padding: 10px;
+
+  }
+  
+  .flex-items {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    background-color: brown;
+    
+
+  }
+  
+ 
